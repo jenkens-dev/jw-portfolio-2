@@ -39,11 +39,12 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Krazy Poems',
+    info:
+      'Krazy Poems is a program designed to liven up poems or text by identifying nouns, adjectives, verbs, and adverbs in a sentence and replacing them with other random words. You can also have your new krazy poem read aloud by a diverse set of different voices and even add music to the reading!',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Taljjaa/noun-swapper-frontend', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -60,7 +61,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'jenken131@gmail.com',
 };
 
 // FOOTER DATA
@@ -69,22 +70,22 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/Talliaa_',
     },
     {
       id: uuidv1(),
-      name: 'codepen',
-      url: '',
+      name: 'pencil',
+      url: 'https://dev.to/talia',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jennifer-m-williams/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Taljjaa',
     },
   ],
 };

@@ -17,9 +17,13 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: `Hi my name is Jennifer Williams and I'm a full stack developer.`,
-  paragraphTwo: `I have a background in Molecular Biology and a degree in Zoology. I taught myself programming for 2 years before deciding to join Flatiron School. I love building all aspects of an application but specialize in the frontend.`,
+  img: 'profile_picture.jpg',
+  // coming out of a boot camp, mention that you want to help people with technology
+  paragraphOne: `I have a background in Molecular Biology and a degree in Zoology. 🦉`,
+  paragraphTwo: `I taught myself programming for 2 years before deciding to join Flatiron School. 
+                I love building all aspects of an application especially the frontend. 
+                My ultimate goal is to use coding to lower the barrier for communities and use technology to have a positive impact on the world around me.
+                `,
   paragraphThree: 'In my free time I enjoy reading, watching anime, and playing with my dog!',
   resume: 'https://drive.google.com/open?id=1k_uEP3y7ENRrp059jqDGofiu2OHwFlY2', // if no resume, the button will not show up
 };
@@ -46,15 +50,15 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/Taljjaa/noun-swapper-frontend', // if no repo, the button will not show up
   },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: uuidv1(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA

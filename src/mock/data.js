@@ -36,7 +36,7 @@ export const projectsData = [
     title: 'Bookclub Builder',
     info: `Bookclub Builder's goal is to encourage people to read more and unite book lovers. I wanted a simple website that allowed me to create a book club and decide on which books to read through poll.`,
     info2: 'Built with React, Redux, MaterialUI, on the frontend and Ruby on Rails on the backend',
-    url: 'https://bookclub-builder-client.herokuapp.com/',
+    url: 'https://taljjaa.github.io/bookclub-builder-frontend/',
     repo: 'https://github.com/Taljjaa/bookclub-builder-frontend', // if no repo, the button will not show up
   },
   {

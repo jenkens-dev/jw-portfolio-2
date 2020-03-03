@@ -42,13 +42,13 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'KrazyPoems.png',
-    title: 'Krazy Poems',
+    title: 'Beat Poems',
     info:
-      'Krazy Poems is a program designed to liven up poems or text by identifying nouns, adjectives, verbs, and adverbs in a sentence and replacing them with other random words. You can also have your new krazy poem read aloud by a diverse set of different voices and even add music to the reading!',
+      'Beat Poems is a program designed to liven up poems or text by identifying nouns, adjectives, verbs, and adverbs in a sentence and replacing them with other random words. You can also have your new poem read aloud by a diverse set of different voices and even add music to the reading!',
     info2:
       'Single Page Application built with JavaScript on the frontend and Ruby on Rails on the backend',
-    url: '',
-    repo: 'https://github.com/Taljjaa/noun-swapper-frontend', // if no repo, the button will not show up
+    url: 'https://beat-poems.netlify.com/',
+    repo: 'https://github.com/Taljjaa/Beat-Poems-frontend', // if no repo, the button will not show up
   },
   // {
   //   id: uuidv1(),

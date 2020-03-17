@@ -25,7 +25,8 @@ export const aboutData = {
                 My ultimate goal is to use coding to lower the barrier for communities and use technology to have a positive impact on the world around me.
                 `,
   paragraphThree: 'In my free time I enjoy reading, watching anime, and playing with my dog!',
-  resume: 'https://drive.google.com/open?id=1k_uEP3y7ENRrp059jqDGofiu2OHwFlY2', // if no resume, the button will not show up
+  resume:
+    'https://docs.google.com/document/d/1jg6qBShEtZ4OMEPJe33Pr2EEyi7ctY4AkveQI9DGIpg/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

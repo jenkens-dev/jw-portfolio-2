@@ -33,6 +33,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'PlayItForward.png',
+    title: 'PlayItForward',
+    info: `PlayItForward is a platform to incentivize volunteers to help nonprofits, and keep them motivated to support their communities by gamifying volunteering engagement.`,
+    info2: 'Built with React, TypeScript, GraphQL, Hasura, and Tailwind',
+    url: '',
+    repo: 'https://github.com/Taljjaa/PlayItForward-Client', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'BookclubBuilder.png',
     title: 'Bookclub Builder',
     info: `Bookclub Builder's goal is to encourage people to read more and unite book lovers. I wanted a simple website that allowed me to create a book club and decide on which books to read through poll.`,

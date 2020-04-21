@@ -36,7 +36,7 @@ export const projectsData = [
     img: 'PlayItForward.png',
     title: 'PlayItForward',
     info: `PlayItForward is a platform to incentivize volunteers to help nonprofits, and keep them motivated to support their communities by gamifying volunteering engagement.`,
-    info2: 'Built with React, TypeScript, GraphQL, Hasura, and Tailwind',
+    info2: 'Built with React, TypeScript, GraphQL, Apollo, and Tailwind',
     url: '',
     repo: 'https://github.com/Taljjaa/PlayItForward-Client', // if no repo, the button will not show up
   },
@@ -46,7 +46,7 @@ export const projectsData = [
     title: 'Bookclub Builder',
     info: `Bookclub Builder's goal is to encourage people to read more and unite book lovers. I wanted a simple website that allowed me to create a book club and decide on which books to read through poll.`,
     info2: 'Built with React, Redux, MaterialUI, on the frontend and Ruby on Rails on the backend',
-    url: 'https://taljjaa.github.io/bookclub-builder-frontend/',
+    url: 'https://bookclub-builder.netlify.app/',
     repo: 'https://github.com/Taljjaa/bookclub-builder-frontend', // if no repo, the button will not show up
   },
   {

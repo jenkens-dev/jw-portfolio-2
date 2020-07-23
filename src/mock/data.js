@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Jennifer Williams | Full Stack Developer', // e.g: 'Name | Developer'
+  title: 'Jen Kennedy | Full Stack Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Jennifer Williams',
+  name: 'Jen Kennedy',
   subtitle: 'I am a Full Stack Developer',
   cta: '',
 };
@@ -42,23 +42,22 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'digitalGarden.png',
+    title: 'The Learning Project',
+    info:
+      "The Learning Project, aka my digital garden is a place where I write about techonology I like and take notes about things I'm learning.",
+    info2: 'My site is built with Gatsby, MDX, GraphQL, and deployed on Netlify.',
+    url: 'https://the-learning-project.netlify.app/',
+    repo: 'https://github.com/Taljjaa/jens-digital-garde', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'BookclubBuilder.png',
     title: 'Bookclub Builder',
     info: `Bookclub Builder's goal is to encourage people to read more and unite book lovers. I wanted a simple website that allowed me to create a book club and decide on which books to read through poll.`,
     info2: 'Built with React, Redux, MaterialUI, on the frontend and Ruby on Rails on the backend',
     url: 'https://bookclub-builder.netlify.app/',
     repo: 'https://github.com/Taljjaa/bookclub-builder-frontend', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'BeatPoems.png',
-    title: 'Beat Poems',
-    info:
-      'Beat Poems is a program designed to liven up poems or text by identifying nouns, adjectives, verbs, and adverbs in a sentence and replacing them with other random words. You can also have your new poem read aloud by a diverse set of different voices and even add music to the reading!',
-    info2:
-      'Single Page Application built with JavaScript on the frontend and Ruby on Rails on the backend',
-    url: 'https://beat-poems.netlify.com/',
-    repo: 'https://github.com/Taljjaa/Beat-Poems-frontend', // if no repo, the button will not show up
   },
   // {
   //   id: uuidv1(),
@@ -84,12 +83,12 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: 'https://twitter.com/Talliaa_',
+      url: 'https://twitter.com/jenkens_',
     },
     {
       id: uuidv1(),
       name: 'pencil',
-      url: 'https://dev.to/talia',
+      url: 'https://the-learning-project.netlify.app/',
     },
     {
       id: uuidv1(),
